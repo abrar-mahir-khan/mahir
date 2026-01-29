@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+
+
+
+.common-wrap {
+    width: 100%;
+    max-width: 1340px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+.scroll-change__headding h2 {
+    font-family: "Sofia Sans", serif;
+    font-size: 60px;
+    line-height: 57px;
+    font-weight: 900;
+    color: #154734;
+    margin-bottom: 10px;
+}
+
+.scroll-change__headding h3 {
+    font-size: 35px;
+    line-height: 38.5px;
+    font-weight: 700;
+    color: #154734;
+}
+
+.scroll-change__headding {
+    margin-bottom: 20px;
+}
+
+.scroll-change__content p {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #154734;
+    margin-bottom: 10px;
+}
+
+.scroll-change__content h4 {
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+    color: #154734;
+}
+
+.scroll-change__content h4 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.scroll-change__content {
+    margin-bottom: 20px;
+}
+
+.scroll-change__btn a {
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.scroll-change__btn a:hover {
+    background-color: transparent;
+}
+
+.scroll-change__sub-btn {
+    background-color: #154734;
+    color: #FFFFFF;
+}
+
+.scroll-change__buy-btn {
+    background-color: blueviolet;
+    color: #FFFFFF;
+}
+
+.scroll-change__shop-btn {
+    background-color: rgb(26, 127, 127);
+    color: #FFFFFF;
+}
+
+.scroll-change__sub-btn:hover {
+    border: 1px solid #154734;
+    color: #154734;
+}
+
+.scroll-change__buy-btn:hover {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+.scroll-change__shop-btn:hover {
+    border: 1px solid rgb(26, 127, 127);
+    color: rgb(26, 127, 127);
+}
+
+.scroll-change__btn a:last-child {
+    margin-bottom: 0;
+}
+
+.scroll-change__des {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #154734;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.scroll-change__wrap {
+    display: flex;
+    gap: 38px;
+    justify-content: space-between;
+}
+
+.scroll-change__left {
+    width: 47%;
+}
+
+.scroll-change__right {
+    width: 50%;
+}
+
+.scroll-change__img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.scroll-change__img-item {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.scroll-change__img-item:last-child {
+    margin-bottom: 0;
+}
+
+.scroll-change__details-items {
+    position: sticky;
+    top: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.scroll-change__details-item {
+    padding: 75px 50px 0 0;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.scroll-change__details-item.active {
+    opacity: 1;
+    z-index: 9;
+    position: relative;
+}
+
+.scroll-change__inner {
+    padding: 100px 0;
+}
